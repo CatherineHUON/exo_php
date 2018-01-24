@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'Occupied';
+  src: url('../FONT/Occupied.otf') format('truetype');
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.logo{
+  height: 100px;
+  float: left;
+}
+nav{
+  height: 105px;
+  width: 100%;
+  background-color: white;
+  font-style: bolder;
+}
+ul{
+  float: right;
+}
+ul li {
+  display: inline;
+  /*text-align: right;*/
+  margin: 50px;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+ul li a{
+  color: #76159e;
+  font-family: 'Occupied';
+  text-decoration: none;
+  text-align: right;
+  font-size: 25px;
+}
+#Home{
+  background-image: url(../IMG/flower3_1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 650px;
+  width: 100%;
+}
+.bas{
+  position: absolute;
+  left: 60px;
+  width: 40%;
+  /*background-color: #dda0dd;*/
+  background-color: rgba(225, 104, 200, 0.3);
+  bottom: 60px;
+  font-family: 'Occupied', sans-serif;
+  font-weight: normal;
+  color: #76159e;
+  padding: 10px;
+  background-attachment: inherit;
+}
+h1.t1{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 200%;
+}
+p.p1{
+  font-family: 'Helvetica', sans-serif;
+  color: #ff00ff;
+  text-align: justify;
+  font-weight: normal;
+  padding: 20px;
+}
+span{
+  font-family: 'Helvetica', sans-serif;
+  color: #ff00ff;
+  text-align: left;
+}
+.Bouton1{
+  padding: 12px;
+  text-align: center;
+  font-family: 'Helvetica';
+  border-radius: 10px;
+  background-image: radial-gradient(#a6ea0a, #27c212);
+  margin-bottom: 20px;
+  float: left;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.Bouton1 a{
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  font-weight: normal;
+  padding-bottom: : 50px;
+  text-decoration: none;
+  /*text-align: center;*/
+}
+
+/*section produits*/
+
+#Produits{
+  /*background: #FFAAFF;*/
+  /*background-image: linear-gradient(white, #98FB98);*/
+  min-height: 750px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../IMG/wood4.png);
+  /*margin-top: : -25px;*/
+  /*le background en dégradé ça ne me plaît pas */
+
+}
+h2{
+  font-family: 'Occupied';
+  color: #800000;
+  font-weight: normal;
+  font-weight: bolder;
+  text-align: right;
+  margin-right: 150px;
+  padding-top: 10px;
+}
+h3{
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+.alignement {
+  width: 100%;
+  margin: 0 auto;
+}
+.outer{
+  width: 20%;
+  height: 400px;
+  padding: 10px;
+  margin: 45px 20px 15px 20px;
+  /*margin: 30px;*/
+  /*background-image: url(../IMG/wood4.png);*/
+  background-color: white;
+  float: left;
+}
+.float {
+  height: 300px;
+  width: 253px;
+  font-weight: normal;
+  /*background-image: url(../IMG/plante-orchidee-selection-variete-tg.png);*/
+  /*margin: 20px;*/
+  /*display: inline-block;*/
+}
+.titre-produit {
+  font-family: 'Occupied', sans-serif;
+  color: #A0522D;
+  font-weight: bold;
+  float: left;
+  padding: 30px 0 30px 20px;
+  width: 35%;
+  margin-top: 2px;
+}
+.Prix {
+  font-family: 'Occupied', sans-serif;
+  font: #8B4513;
+  float: right;
+  height: 40px;
+  width: 100px;
+  background-color: #7fff00;
+  align-content: center;
+  text-align: center;
+  margin: 30px 15px 10px 0;
+}
+.ORCHIDEE {
+  height: 300px;
+  width: 253px;
+}
+.lilies{
+  height: 300px;
+  width: 253px;
+}
+.bouquet-compassion{
+  height: 300px;
+  width: 253px;
+}
+.poinsettia{
+  height: 300px;
+  width: 253px;
+}
+
+/*section boutique*/
+
+#Store{
+  background-image: url(../IMG/boutique01.jpg);
+  min-height: 750px;
+  height: 100%;
+  width: 100%;
+}
+.boutique{
+  /*position: relative;*/
+  height: auto;
+  width: 50%;
+  /*background-color: #dda0dd;*/
+  background-color: rgba(225, 255, 255, 0.8);
+  font-family: 'Helvetica', sans-serif;
+  font-weight: normal;
+  color: #76159e;
+  padding: 0 20px 0 20px;
+  float: right;
+  margin-top: 250px;
+  margin-right: 20px;
+}
+h2.t2{
+
+}
+p.p2{
+  text-align: justify;
+  color: #76159e;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+}
+span{
+  color: #76159e;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+}
+.réseaux-sociaux a{
+color: #32CD32;
+/*height: 40px;
+width: 40px;*/
+display: inline;
+text-align: right;
+}
+/*.réseaux-sociaux a{
+  color: #32CD32;
+}*/
+#Contact{
+  /*background: linear-gradient(white,#32CD32);*/
+  min-height: 750px;
+  height: 85%;
+  width: 100%;
+  background-image: url(../IMG/flower15.png);
+}
+
+.t3{
+  font-weight: bold;
+  font-family: 'Occupied';
+  color: #800000;
+  text-align: center;
+  margin-bottom: -150px;
+  padding-top: 50px;
+}
+form{
+  height: 50%;
+  width: 50%;
+  margin: 170px -50px 0 310px;
+  padding: 0 50px 0 0;
+  border: 2px solid #FAFAD2;
+  background-color: #FAFAD2;
+}
+.pc1{
+  height: 50%;
+  width: 100%;
+  background-color: #98FB98;
+  text-align: left;
+  margin-left: 20px;
+  padding: 20px 0 20px 10px;
+}
+label{
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  color: #800000;
+}
+.pc2{
+  height: 50px;
+  width: 100%;
+  background-color: #98FB98;
+  text-align: left;
+  margin-left: 20px;
+  padding: 20px 0 0 10px;
+}
+.pc3{
+  height: 150px;
+  width: 100%;
+  background-color: #98FB98;
+  text-align: left;
+  margin-left: 20px;
+  padding: 20px 0 20px 10px;
+}
+button{
+  height: 30px;
+  width: 15%;
+  float: right;
+  margin-right: 25%;
+  margin-top: 30px;
+  background-image: radial-gradient(#ff00ff,#FFAAFF);
+  border-radius: 10px;
+  color: #800000;
+}
+/*footer{
+  /*background-color: #32CD32;*/
+  /*bottom: 0;*/
+  /*margin-top: 200px;*/
+  /*width: 100%;
+  height: 50px;*/
+  /*padding-top: 20px;*/
+/*}*/
+.Copyright{
+  font-weight: normal;
+  font-family: 'Helvetica', sans-serif;
+  color: #800000;
+  /*margin-left: 20px;*/
+  padding-top: 10px;
+  margin-top: 100px;
+  width: 100%;
+  height: 50px;
+  background-color: #32CD32;
+}
+.pc4{
+color: #800000;
+height: 40px;
+width: 40px;
+display: inline;
+float: right;
+}

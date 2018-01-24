@@ -9,24 +9,14 @@
 
   <?php
   $X = 13;
-  // $Y = n;
+  $Y = 0;
 
-  while ($n <= 10) {
-    echo $X." x ".$n." = ".$X*$n;
-    $n++;
+  while ($Y <= 10) {
+    echo $X." x ".$Y." = ".$X*$Y."<br/>";
+
+    $Y++;
   }
-  // function factorielle($nbr)
-  // {
-  //    if($nbr === 0) {
-  //        return 1;
-  //    }
-  //   else
-  //       {
-  //        return $nbr*factorielle($nbr-1);
-  //      }
-  //
-  // }
-  //   echo number_format(factorielle(10),0,',',' ');
+
   ?>
   </body>
 </html>
